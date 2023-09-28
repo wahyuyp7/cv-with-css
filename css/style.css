@@ -1,0 +1,138 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* Page title */
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+/* General headings */
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top container styles */
+.top-container {
+    background-color: #F1EFEF;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+/* Cloud images */
+.top-cloud,
+.bottom-cloud {
+    width: 150px;
+    position: absolute;
+}
+
+.top-cloud {
+    right: 300px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    left: 250px;
+    top: 200px;
+}
+
+/* Mountain image */
+.montain {
+    width: 500px;
+}
+
+/* Programmer text */
+.programmer {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* Underline style */
+.pro {
+    text-decoration: underline;
+}
+
+/* Skill row image */
+.skill-row img {
+    width: 300px;
+}
+
+/* Middle container styles */
+.middle-container {
+    background-color: #fff; /* Background color for the middle container */
+    padding: 30px; /* Add padding as needed */
+    text-align: center; /* Adjust text alignment as needed */
+}
+
+/* Profile section styles */
+.profile {
+    margin-bottom: 20px; /* Add margin as needed */
+}
+
+.profile img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+}
+
+/* Skills section styles */
+.skills {
+    margin-top: 20px; /* Add margin as needed */
+}
+
+.skills h2 {
+    margin-bottom: 10px; /* Add margin as needed */
+}
+
+/* Contact me section styles */
+.contact-me {
+    margin-top: 20px; /* Add margin as needed */
+}
+
+.contact-me h2 {
+    margin-bottom: 10px; /* Add margin as needed */
+}
+
+/* Contact me button styles */
+.contact-me a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Customize button background color */
+    color: #fff; /* Customize button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-me a:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Bottom container styles */
+.bottom-container {
+    background-color: #333; /* Customize the background color */
+    color: #fff; /* Customize the text color */
+    padding: 20px 0;
+}
+
+/* Footer link styles */
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px; /* Add margin between footer links */
+}
+
+.footer-link:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+.copyright {
+    margin-top: 30px;
+}
